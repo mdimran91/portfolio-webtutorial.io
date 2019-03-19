@@ -271,7 +271,7 @@ font-weight: lighter;
 
 .img-darken{
   transition: 1s;
-  filter: brightness(10%);
+  filter: brightness(40%);
 }
 
 .container-footer{
