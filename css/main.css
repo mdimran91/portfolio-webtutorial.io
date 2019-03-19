@@ -277,7 +277,7 @@ font-weight: lighter;
 .container-footer{
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgb(48, 49, 49);
+  background-color:#1c1c1c;
   overflow: hidden;
 }
 
@@ -297,6 +297,10 @@ font-weight: lighter;
   float: left;
   padding-right: 50px;
 }
+.links ul{
+  float: left;
+  padding-right: 20px;
+}
 
 .links li{
   padding: 3px;
@@ -314,28 +318,28 @@ font-weight: lighter;
   text-decoration: underline;
 }
 
-.tutorials-links li{
-  padding: 3px;
-}
-
-.tutorials-links a{
-  text-decoration: none;
-  color:gray;
-  padding-top: 10px;
-  font-size: 14px;
-}
-
-.tutorials-links a:hover{
-  color: white;
-  text-decoration: underline;
-}
-
-
-
-
-
 .underconstruction img{
   width: 100%;
+}
+
+.social-icons img{
+  width: 30px;
+  height: 30px;
+}
+.social-icons li{
+  background-color:white;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 10px;
+}
+.social-icons li:hover{
+  background-color:#00a650;
+}
+
+.social-icon-wrapper{
+  color: white;
+  padding-top: 23px;
 }
 
 
