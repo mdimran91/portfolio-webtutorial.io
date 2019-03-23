@@ -40,7 +40,7 @@
 }
 
 .signup button:hover{
-  background-color: #656665;
+  background-color:#e64c26;
   text-decoration-line: underline;
 }
 .navigation-main{
@@ -61,7 +61,7 @@ padding-right: 20px;
   }
 
 .nav a:hover{
-    background-color: black;
+    background-color: #e64c26;
 }
   
   .dropdown {
@@ -81,7 +81,7 @@ padding-right: 20px;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #e64c26;
   }
   
   .dropdown-content {
@@ -334,13 +334,35 @@ font-weight: lighter;
   margin: 10px;
 }
 .social-icons li:hover{
-  background-color:#00a650;
+  background-color:#e64c26;
 }
 
 .social-icon-wrapper{
   color: white;
   padding-top: 23px;
 }
+
+/* media screen */
+@media screen and (max-width:1000px){
+
+  .portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .links{
+    display: none;
+  }
+
+  .signup{
+    display: none;
+  }
+}
+
 
 
 
