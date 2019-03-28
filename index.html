@@ -10,44 +10,52 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/media.css">
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="header-main">
+    <header>
         <div class="container-header">
-            <div class="logo-image">
-                <img src="images/logo.png" alt="">
-            </div>
-            <div class="logo-name">
-                <h1>CODE CAMP</h1>
-            </div>
-            <div class="signup">
-                <button> Login In</button>
-                <button>Sign Up</button>
-            </div>
+           <div class="logo-image">
+              <div class="logo-mb">
+                 <img src="images/logo.png" alt="">
+              </div>
+              <div class="logo-pc">
+                 <img src="images/logo-pc.png" alt="">
+              </div>
+           </div>
+           <div class="logo-name">
+              <h2>CODE CAMP</h2>
+           </div>
+               <div id="slidebar">
+                   <div class="toggle-btn" onclick="toggleSlidebar()">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+                   <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Tutorial</a></li>
+                       <li><a href="#">Feedback</a></li>
+                       <li><a href="#">Testinomial</a></li>
+                       <li><a href="#">Contact</a></li>
+                       <li><a href="#">Sign In /Sign Up</a></li>
+                   </ul>
+               </div>
+        <nav class="navigation">
+              <ul>
+                 <li class="active"><a class="link-active" href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Tutorial</a></li>
+                 <li><a href="#">Feedback</a></li>
+                 <li><a href="#">Testinomial</a></li>
+                 <li><a href="#">Contact</a></li>
+              </ul>
+              
+        </nav>
         </div>
-        <div class="navigation-main">
-            <div class="container-nav">
-                <div class="nav">
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">TUTORIALS<i class="fa fa-caret-down"></i> </button>
-                        <div class="dropdown-content">
-                            <a href="#">HTML & CSS</a>
-                            <a href="#">Javascript</a>
-                            <a href="#">Jquery</a>
-                            <a href="#">Bootstrap</a>
-                            <a href="#">Angular</a>
-                        </div>
-                    </div>
-                    <a href="#">Contact us</a>
-                    <a href="#">Feed back</a>
-                    <a href="#">Testinomials</a>
-                </div>
-            </div>
-        </div>
-    </header>
+     </header>
     <main>
         <div class="banner">
             <img src="images/banner.jpeg" alt="">
@@ -228,37 +236,37 @@
             <div class="links">
                 <ul>
                     <li>LINKS</li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Feedback</a></li>
-                    <li><a href="#">Testinomials</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Home</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">About Us</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Feedback</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Testinomials</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Contact Us</a></li>
                 </ul>
                 <ul>
                     <li>FRONT-END</li>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">Jquery</a></li>
-                    <li><a href="#">Bootstrap</a></li>
-                    <li><a href="#">Angular</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">HTML</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">CSS</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">JavaScript</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Jquery</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Bootstrap</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#">Angular</a></li>
                 </ul>
                 <ul>
                         <li>BACK-END</li>
-                        <li><a href="#">Php</a></li>
-                        <li><a href="#">MySQL</a></li>
-                        <li><a href="#">Ruby</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">Php</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">MySQL</a></li>
+                        <li><i class="fas fa-angle-right"></i><a href="#">Ruby</a></li>
                     </ul>
             </div>
             <div class="social-icon-wrapper">
                 <p>FOLLOW US</p>
             <div class="social-icons">
                 <ul>
-                    <li><a href=""></a><img src="images/icons/facebook.png" alt=""></li>
-                    <li><a href=""><img src="images/icons/twitter.png" alt=""></li>
-                    <li><a href=""><img src="images/icons/youtube.png" alt=""></li>
-                    <li><a href=""><img src="images/icons/linkedin.png" alt=""></li>
-                    <li><a href=""><img src="images/icons/instagram.png" alt=""></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></li>
                 </ul>
             </div>
         </div>
@@ -278,5 +286,9 @@
             portfolioItem.childNodes[1].classList.remove('img-darken');
         })
     })
+
+    function toggleSlidebar(){
+        document.getElementById("slidebar").classList.toggle('active');
+    }
 </script>
 </html>
